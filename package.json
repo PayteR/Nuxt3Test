@@ -1,0 +1,26 @@
+{
+  "name": "zdr_frontend",
+  "version": "0.1.0",
+  "description": "nuxt3Test",
+  "author": "Peter PayteR Gašparík",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build --modern=server",
+    "start": "nuxt start --modern=server",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/bulma": "^1.2.1",
+    "@nuxtjs/pwa": "^2.6.0",
+    "cross-env": "^5.2.0",
+    "nuxt-edge": "latest"
+  },
+  "devDependencies": {
+    "@nuxt/bridge": "npm:@nuxt/bridge-edge@^3.0.0-27235989.d52b1e8",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "nodemon": "^1.18.9",
+    "prettier": "^1.16.4"
+  }
+}
