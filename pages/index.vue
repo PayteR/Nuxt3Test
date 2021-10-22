@@ -6,7 +6,7 @@
         nuxt2
       </h1>
       <h2 class="subtitle">
-        My cat&#39;s meow Nuxt.js project
+        My cat&#39;s meow Nuxt.js project test push
       </h2>
       <div class="links">
         <a
