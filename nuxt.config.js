@@ -39,11 +39,20 @@ export default defineNuxtConfig({
   // /*
   // ** Nuxt.js modules
   // */
-  // modules: [
-  //   // Doc:https://github.com/nuxt-community/modules/tree/master/packages/bulma
-  //   '@nuxtjs/bulma',
-  //   '@nuxtjs/pwa',
-  // ],
+  modules: [
+    '@nuxtjs/apollo',
+    // '@nuxtjs/bulma',
+    // '@nuxtjs/pwa',
+  ],
+
+  apollo: {
+    clientConfigs: {
+      default: {
+        httpEndpoint: 'http://localhost:4000',
+      }
+    }
+  }
+
   //
   // /*
   // ** Build configuration
